@@ -11,7 +11,7 @@ You may use the [http-repl](https://docs.microsoft.com/en-us/aspnet/core/web-api
 ### Adding a person
 Run the following commands:
 1. `httprepl https://localhost:<port>/api/people`
-1. `post -h Content-Type=application/json -c "{"name":"Jane Doe","email":"jane@mail.com"}"`
+1. `post -h Content-Type=application/json -c "{"name":"Jane Doe","email":"jane@mail.com", "riskLevel":1}"`
 
 ### Getting the record of a single person
 

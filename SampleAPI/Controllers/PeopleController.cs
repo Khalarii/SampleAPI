@@ -68,7 +68,9 @@ namespace SampleAPI.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(person).State = EntityState.Modified;
+            Person processedPerson = _processor.Apply(person);
+
+            _context.Entry(processedPerson).State = EntityState.Modified;
 
             try
             {
