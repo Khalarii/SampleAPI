@@ -27,7 +27,7 @@ Run the following commands:
 
 Using http-repl, run the following commands:
 1. `connect https://localhost:<port>/api/people/<id>`
-1. `put -h Content-Type=application/json -c "{"id":1,"name":"Jack Dorothy","email":"jack@mail.com"}"`
+1. `put -h Content-Type=application/json -c "{"id":1,"name":"Jack Dorothy","email":"jack@mail.com", "riskLevel":0}"`
 
 ### Deleting the record of a person
 
